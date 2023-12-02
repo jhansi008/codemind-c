@@ -5,6 +5,6 @@ int main()
     scanf("%d",&n);
     if(n>40)
     printf("YES");
-    else 
+    else
     printf("NO");
 }
