@@ -3,6 +3,11 @@
 int main()
 {
     char str[100];
+    int count=0;
     scanf("%s",str);
-    printf("%d",strlen(str));
+    for(int i=0;str[i]!=NULL;i++)
+    {
+        count++;
+    }
+    printf("%d",count);
 }
